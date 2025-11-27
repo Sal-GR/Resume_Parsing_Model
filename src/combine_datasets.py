@@ -1,5 +1,5 @@
-from load_dataset2 import load_dataset1
-from load_dataset1 import load_dataset2
+from load_dataset1 import load_dataset1
+from load_dataset2 import load_dataset2
 import pandas as pd
 
 def combine():
