@@ -12,3 +12,4 @@ data/**/*.docx
 # Virtual environments
 env/
 venv/
+data/adversarial/adversarial_resumes.csv
