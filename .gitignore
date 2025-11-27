@@ -15,3 +15,4 @@ venv/
 data/adversarial/adversarial_resumes.csv
 data/adversarial/adversarial_parser_output.csv
 data/clean_parser_output.csv
+data/features/resume_features.csv
