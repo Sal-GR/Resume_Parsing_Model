@@ -144,12 +144,3 @@ def parse_resume(path: str) -> dict:
         "raw_text": text
     }
 
-
-# -------------------------------------
-# TEST
-# -------------------------------------
-
-if __name__ == "__main__":
-    test_file = "test_resume.txt"
-    data = parse_resume(test_file)
-    print(data)
