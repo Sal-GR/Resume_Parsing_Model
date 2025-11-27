@@ -26,7 +26,7 @@ def load_dataset1(path="data/clean/dataset1.csv"):
         on_bad_lines="skip"
     )
 
-    # Rename Category → Label
+    # Rename Category --> Label
     df = df.rename(columns={"Category": "Label"})
 
     # Clean Resume_str
@@ -39,11 +39,9 @@ def load_dataset1(path="data/clean/dataset1.csv"):
     # Use plain text as the main content
     df["Text"] = df["Resume_str"]
 
-    # 🔽 FIX LABELS HERE 🔽
     df["Label"] = df["Label"].astype(str)
     df["Label"] = df["Label"].str.replace(r"[^A-Za-z ]+", "", regex=True)
     df["Label"] = df["Label"].str.strip()
-    # 🔼 END FIX 🔼
 
     return df[["Text", "Label"]]
 
