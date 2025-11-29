@@ -14,7 +14,6 @@ from sklearn.metrics import (
 )
 import joblib
 
-# Load extracted features
 df = pd.read_csv("data/features/resume_features.csv")
 
 print("Loaded feature dataframe:", df.shape)
