@@ -9,3 +9,5 @@ run evaluate_adversarial.py --> data/adversarial/adversarial_parser_output.csv, 
 Run extract_features.py --> data/features/resume_features.csv [CREATE FOLDER: data/features]
 
 Run train_adveserial_detector.py --> models/rf_adversarial_detector.pkl, [ALREADY IN REPO: models/feature_importances.csv], [ALREADY IN REPO: models/logreg_adversarial_detector.pkl], [ALREADY IN REPO: models/scaler.pkl]
+
+Run train_balanced_detector.py --> 

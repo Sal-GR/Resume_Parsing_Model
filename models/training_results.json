@@ -1,0 +1,29 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.8336308273834523,
+    "precision": 0.9849379198046,
+    "recall": 0.76210725253957,
+    "f1": 0.8593118756936737,
+    "report": "              precision    recall  f1-score   support\n\n           0     0.6724    0.9767    0.7965      6349\n           1     0.9849    0.7621    0.8593     12699\n\n    accuracy                         0.8336     19048\n   macro avg     0.8287    0.8694    0.8279     19048\nweighted avg     0.8808    0.8336    0.8384     19048\n"
+  },
+  "random_forest": {
+    "accuracy": 0.9153191936161277,
+    "precision": 0.9714237115155638,
+    "recall": 0.8994409008583353,
+    "f1": 0.9340475119597661,
+    "report": "              precision    recall  f1-score   support\n\n           0     0.8248    0.9471    0.8817      6349\n           1     0.9714    0.8994    0.9340     12699\n\n    accuracy                         0.9153     19048\n   macro avg     0.8981    0.9233    0.9079     19048\nweighted avg     0.9226    0.9153    0.9166     19048\n",
+    "feature_importances": {
+      "num_tokens": 0.04261277669559592,
+      "avg_token_length": 0.28147551065264553,
+      "unique_token_ratio": 0.06540899802315744,
+      "num_chars": 0.04382134815101922,
+      "digit_count": 0.02924560643172856,
+      "punct_count": 0.059939024252439306,
+      "uppercase_ratio": 0.03638149061946858,
+      "whitespace_ratio": 0.05174484571101684,
+      "zero_width_count": 0.08750776689279126,
+      "non_ascii_count": 0.19944104051707684,
+      "homoglyph_count": 0.10242159205306055
+    }
+  }
+}
