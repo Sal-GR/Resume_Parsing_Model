@@ -1,0 +1,16 @@
+{
+  "logistic_regression": {
+    "clean": 0.9757449757449758,
+    "zero_width": 0.9967869967869968,
+    "homoglyph": 0.9962199962199962,
+    "keyword_stuffing": 0.057393057393057396,
+    "combo": 0.9994959994959995
+  },
+  "random_forest": {
+    "clean": 0.9894159894159894,
+    "zero_width": 0.9999369999369999,
+    "homoglyph": 0.9996219996219996,
+    "keyword_stuffing": 0.9198009198009198,
+    "combo": 1.0
+  }
+}
